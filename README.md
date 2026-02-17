@@ -35,24 +35,9 @@ Actualmente buscando **Oportunidades de Prácticas Profesionales**.
 
 ### 🔭 Proyectos Actuales
 
-Trabajando activamente en la construcción de mi portafolio técnico:
-
 - **🛒 Herramienta de Comparación de Precios:** Automatización de Web Scraping con Python, Flask y SQLite.
 - **🧠 Modelo de Análisis de Sentimiento:** Clasificación de texto con precisión del 88% usando Scikit-learn.
 - **📋 Gestor de Tareas Inteligente:** Aplicación de consola en Java implementando patrón DAO y base de datos.
-
----
-
-### 📊 Estadísticas de GitHub
-
-<p align="left">
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_DE_GITHUB&show_icons=true&theme=radical&hide=issues,contribs&locale=es" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO_DE_GITHUB&layout=compact&theme=radical&locale=es" />
-</a>
-</p>
 
 ---
 
