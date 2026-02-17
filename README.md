@@ -1,63 +1,62 @@
-# Hi there, I'm Miguel Cordova! 👋
+# ¡Hola, soy Miguel Cordova! 👋
 
-### 👨‍💻 Software Engineering Student specialized in AI
-I'm a passionate developer in training, focused on building efficient software solutions and exploring the world of Data Science and Machine Learning. Currently looking for **Internship opportunities**.
+### 👨‍💻 Estudiante de Ingeniería de Software con IA
+Me encuentro en las etapas finales de mi formación, enfocado en aplicar mis conocimientos fundamentales en el ciclo completo de desarrollo de software. Estoy comprometido con el aprendizaje continuo y la construcción de soluciones eficientes.
+
+Actualmente buscando **Oportunidades de Prácticas Profesionales**.
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🛠️ Tecnologías y Herramientas
 
-**Languages:**
+**Lenguajes y Bases de Datos:**
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 </p>
 
-**Data & AI:**
+**Ciencia de Datos e IA:**
 <p>
   <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img alt="Scikit-Learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 </p>
 
-**Tools & Others:**
+**Metodologías y Herramientas:**
 <p>
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="Scrum" src="https://img.shields.io/badge/SCRUM-Methodology-blue?style=for-the-badge&logo=scrum&logoColor=white" />
   <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 </p>
 
 ---
 
-### 🔭 Current Projects
+### 🔭 Proyectos Actuales
 
-I'm currently working on building my portfolio with these projects:
+Trabajando activamente en la construcción de mi portafolio técnico:
 
-- **🛒 Price Comparator Tool:** An automated web scraping tool with Python & Flask.
-- **🧠 Sentiment Analysis Model:** A text classification model with 88% accuracy using Scikit-learn.
-- **📋 Smart Task Manager:** A Java console application using DAO pattern and Oracle DB.
+- **🛒 Herramienta de Comparación de Precios:** Automatización de Web Scraping con Python, Flask y SQLite.
+- **🧠 Modelo de Análisis de Sentimiento:** Clasificación de texto con precisión del 88% usando Scikit-learn.
+- **📋 Gestor de Tareas Inteligente:** Aplicación de consola en Java implementando patrón DAO y base de datos.
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Estadísticas de GitHub
 
 <p align="left">
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=miguel-cordova7&show_icons=true&theme=radical&hide=issues,contribs" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_DE_GITHUB&show_icons=true&theme=radical&hide=issues,contribs&locale=es" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguel-cordova7&layout=compact&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO_DE_GITHUB&layout=compact&theme=radical&locale=es" />
 </a>
 </p>
 
 ---
 
-### 📫 Connect with me
+### 📫 Conecta conmigo
 
-- **LinkedIn:** [Miguel Cordova](AQUI_PON_TU_URL_DE_LINKEDIN)
+- **LinkedIn:** [[Miguel Cordova]](https://www.linkedin.com/in/miguel-cordova7/)
 - **Email:** tesla.starx.369@gmail.com
-
-<!--
-**miguel-cordova7/miguel-cordova7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
