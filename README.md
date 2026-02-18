@@ -102,15 +102,11 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/miguel-cordova-rossel/">
+  <a href="https://www.linkedin.com/in/miguel-cordova7/">
     <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder_social_media_isometric_14-linkedin_3529657.png?raw=true" alt="linkedin" height="40">
   </a>
   &nbsp;
-  <a href="https://twitter.com/tu_usuario">
-    <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder_social_media_isometric_6-twitter_3529664.png?raw=true" alt="twitter" height="40">
-  </a>
-  &nbsp;
-  <a href="https://stackoverflow.com/users/tu_id">
+  <a href="https://stackoverflow.com/users/32384783">
     <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder_StackOverflow_2613280.png?raw=true" alt="stackoverflow" height="40">
   </a>
   &nbsp;
@@ -118,7 +114,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
     <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder__github_1156638.png?raw=true" alt="github" height="40">
   </a>
   &nbsp;
-  <a href="mailto:tu_correo@gmail.com">
+  <a href="mailto:miguel.cordova.rs@gmail.com">
     <img src="https://www.svgrepo.com/show/349378/gmail.svg" alt="gmail" height="40">
   </a>
 </p>
