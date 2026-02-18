@@ -97,7 +97,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <br>
 
-## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="80px"> Para más información o contacto, puedes encontrarme en
+## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="80px"> Para más información puedes encontrarme en
 
 <br>
 
