@@ -122,8 +122,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 <p align="center">
-  <img  src="https://raw.githubusercontent.com/iscpatricio92/iscpatricio92/main/resources/img/github-contribution-grid-snake.svg"
-    alt="iscpatricio92" />
+  <img src="https://raw.githubusercontent.com/miguel-cordova7/miguel-cordova7/output/github-contribution-grid-snake-dark.svg" alt="Actividad de miguel-cordova7" />
 </p>
 
 <br>
