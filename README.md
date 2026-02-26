@@ -91,8 +91,8 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 <div align="center">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=miguel-cordova7&theme=algolia&background=0d1117&hide_border=true" />
-  <img src="https://activity-graph.herokuapp.com/graph?username=miguel-cordova7&theme=react-dark"/>
+  <img src="https://streak-stats.demolab.com?user=miguel-cordova7&theme=algolia&background=0d1117&hide_border=true&v=1" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=miguel-cordova7&theme=react-dark" alt="GitHub Activity Graph" />
 </div>
 
 <br>
