@@ -109,9 +109,9 @@ def generate_svg(total, current, longest, total_range, current_date, longest_ran
     svg_template = f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
         <style>
             .stat {{ font: 700 28px 'Segoe UI', Ubuntu, sans-serif; }}
-            .label {{ font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #00a8f3; }}
+            .label {{ font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #A3B3BC; }}
             .label-current {{ font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #28a745; }}
-            .date {{ font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #A3B3BC; }}
+            .date {{ font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #768390; }}
         </style>
         
         <rect width="495" height="195" fill="#0d1117" rx="4.5" />
@@ -120,21 +120,22 @@ def generate_svg(total, current, longest, total_range, current_date, longest_ran
         <line x1="330" y1="35" x2="330" y2="160" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
 
         <text x="82.5" y="90" fill="#00a8f3" class="stat" text-anchor="middle">{total}</text>
-        <text x="82.5" y="125" class="label" text-anchor="middle">Total Contributions</text>
+        <text x="82.5" y="125" class="label" text-anchor="middle" fill="#fff">Total Contributions</text>
         <text x="82.5" y="150" class="date" text-anchor="middle">{total_range}</text>
+
+        <path d="M247.5 57A38 38 0 1 1 209.5 95A38 38 0 0 1 247.5 57M247.5 67A28 28 0 1 0 275.5 95A28 28 0 0 0 247.5 67" fill="#00a8f3" fill-rule="evenodd"/>
 
         <g transform="translate(240, 27)">
             <path fill="#00a8f3" d="M7.49 1.152L7.545 1.127l.035.045c2.422 3.193 4.414 5.346 4.414 8.01 0 3.328-2.585 5.818-5.994 5.818-3.409 0-5.994-2.49-5.994-5.818 0-2.31 1.488-4.576 3.51-6.686l.063-.065.046.06c1.17 1.517 2.016 3.064 2.016 4.706 0 1.25-.563 2.158-1.576 2.607a.75.75 0 0 0 .584 1.378c1.68-.713 2.492-2.302 2.492-3.985 0-2.315-1.196-4.22-2.64-6.05Zm0 .01-.002-.003.002.003Zm-.52.28-.052-.066-.022.03c-2.023 2.115-3.396 4.225-3.396 6.37 0 2.49 1.936 4.318 4.494 4.318 2.558 0 4.494-1.828 4.494-4.318 0-2.274-1.745-4.14-3.858-7.076-.84 1.636-1.594 3.238-1.594 5.031 0 1.62.775 2.91 2.036 3.58a.75.75 0 0 1-.708 1.32c-1.765-.945-2.828-2.695-2.828-4.9 0-2.053 1.055-3.83 2.434-5.289Z"></path>
         </g>
         
-        <circle cx="247.5" cy="95" r="38" fill="none" stroke="#00a8f3" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="190 60" stroke-dashoffset="-20" transform="rotate(-90 247.5 95)" />
-        
         <text x="247.5" y="105" fill="#28a745" class="stat" text-anchor="middle">{current}</text>
+        
         <text x="247.5" y="145" class="label-current" text-anchor="middle">Current Streak</text>
         <text x="247.5" y="165" class="date" text-anchor="middle">{current_date}</text>
 
         <text x="412.5" y="90" fill="#00a8f3" class="stat" text-anchor="middle">{longest}</text>
-        <text x="412.5" y="125" class="label" text-anchor="middle">Longest Streak</text>
+        <text x="412.5" y="125" class="label" text-anchor="middle" fill="#fff">Longest Streak</text>
         <text x="412.5" y="150" class="date" text-anchor="middle">{longest_range}</text>
     </svg>"""
     
