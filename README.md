@@ -91,7 +91,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=miguel-cordova7&theme=algolia&background=0d1117&hide_border=true&v=1" alt="GitHub Streak" /> 
+  <img src="./racha.svg" alt="GitHub Streak de Salvatore" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=miguel-cordova7&theme=react-dark" alt="GitHub Activity Graph" />
 </div>
 
