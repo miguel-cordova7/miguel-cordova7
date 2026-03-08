@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
         <style>
             .stat { font: 700 32px 'Segoe UI', Ubuntu, sans-serif; }
-            .label { font: 700 14px 'Segoe UI', Ubuntu, sans-serif; }
-            .date { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #A3B3BC; }
+            .label { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; }
+            .date { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #fff; }
         </style>
         
         <rect width="495" height="195" fill="#0d1117" rx="4.5" />
 
-        <line x1="165" y1="45" x2="165" y2="170" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
-        <line x1="330" y1="45" x2="330" y2="170" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
+        <line x1="165" y1="45" x2="165" y2="155" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
+        <line x1="330" y1="45" x2="330" y2="155" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
 
-        <text x="82.5" y="100" fill="#00a8f3" class="stat" text-anchor="middle">40</text>
-        <text x="82.5" y="136" fill="#00a8f3" class="label" text-anchor="middle">Total Contributions</text>
-        <text x="82.5" y="160" class="date" text-anchor="middle">Mar 9, 2025 - Present</text>
+        <text x="82.5" y="95" fill="#00a8f3" class="stat" text-anchor="middle">41</text>
+        <text x="82.5" y="130" fill="#00a8f3" class="label" text-anchor="middle">Total Contributions</text>
+        <text x="82.5" y="155" class="date" text-anchor="middle">Mar 9, 2025 - Present</text>
 
-        <circle cx="247.5" cy="88" r="38" fill="none" stroke="#00a8f3" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="198.76 40" stroke-dashoffset="-20" transform="rotate(-90 247.5 88)" />
+        <path d="M 225.5 51.2 A 42 42 0 1 0 269.5 51.2" fill="none" stroke="#00a8f3" stroke-width="4.5" stroke-linecap="round" />
         
-        <svg x="235.5" y="38" width="24" height="24" viewBox="0 0 24 24" fill="#00a8f3">
-            <path d="M11.83 1.018a.75.75 0 0 1 .632.253c.693.858 1.487 1.947 2.112 3.232.613 1.259 1.026 2.651 1.026 4.097 0 1.284-.33 2.502-.95 3.526a.75.75 0 0 1-1.285-.754A5.5 5.5 0 0 0 14.1 8.6c0-1.22-.352-2.39-.884-3.486-.54-1.11-1.233-2.062-1.83-2.81a8.498 8.498 0 0 0-.256-.307c-.12.213-.263.456-.425.728a17.846 17.846 0 0 0-1.463 2.87c-.633 1.543-1.242 3.473-1.242 5.505 0 2.222.846 4.343 2.378 5.89A8.04 8.04 0 0 0 16.033 19.1a.75.75 0 0 1 .536 1.398 9.539 9.539 0 0 1-6.725-2.227C7.994 16.402 7 13.824 7 11.1c0-2.261.68-4.398 1.373-6.084a19.344 19.344 0 0 1 1.636-3.149l.06-.098.026-.04a.75.75 0 0 1 .562-.317l.023-.001.034.001.027.003c.097.013.256.046.474.122.387.135.845.337 1.353.626Zm-1.57.915a13.385 13.385 0 0 0-1.144 2.179A13.235 13.235 0 0 0 8.5 8.6c0 2.333.805 4.5 2.14 6.007a8.038 8.038 0 0 0 4.395 2.39.75.75 0 0 1-.223 1.483 9.538 9.538 0 0 1-5.186-2.827C8.114 14.28 7 11.666 7 8.6c0-1.841.486-3.69 1.13-5.22a14.885 14.885 0 0 1 1.05-1.928.75.75 0 0 1 1.08-.23c.365.234.78.47 1.25.7Zm5.688 8.868a.75.75 0 0 1 .989-.356C18.663 11.196 19.5 12.878 19.5 14.6c0 1.956-.78 3.822-2.183 5.225A7.538 7.538 0 0 1 12 22a7.539 7.539 0 0 1-5.317-2.175.75.75 0 0 1 1.06-1.06 6.039 6.039 0 0 0 4.257 1.735 6.038 6.038 0 0 0 4.257-1.735c1.123-1.123 1.743-2.616 1.743-4.165 0-1.341-.645-2.67-1.36-3.376a.75.75 0 0 1-.356-.99Z"></path>
-        </svg>
+        <g transform="translate(233.1, 24.5) scale(1.2)">
+            <path fill="#00a8f3" d="M11.5 22.04c-1.35 0-2.62-.52-3.57-1.45-.96-.93-1.48-2.22-1.46-3.57.03-2.12 1.13-3.9 2.1-5.47.41-.66.81-1.31 1.15-2.03.4-1.03.51-2.13.36-3.26-.01-.04-.03-.07-.05-.1.18-.2.43-.3.7-.3.26 0 .51.1.7.3.16.35.33.7.53 1.05.5 1.05 1.1 2.15 1.83 3.06.75.95 1.63 1.82 2.45 2.77 1.05 1.25 1.7 2.8 1.68 4.4-.01 1.4-.55 2.72-1.53 3.67-.98.98-2.31 1.52-3.71 1.52zm-1.63-4.5c.23.25.55.38.88.38.33 0 .65-.13.88-.38.21-.23.33-.53.31-.85 0-.25-.08-.48-.23-.67l-1.36-1.58c-.38-.43-.61-.98-.68-1.55-.03-.55.1-1.08.35-1.55l.06-.13c-.23.37-.45.75-.66 1.12-.38.63-.78 1.3-1.15 2.02-.18.35-.35.72-.48 1.12-.18.58-.25 1.18-.16 1.78.08.52.31.98.66 1.37z" />
+        </g>
         
-        <text x="247.5" y="100" fill="#28a745" class="stat" text-anchor="middle">2</text>
-        <text x="247.5" y="136" fill="#28a745" class="label" text-anchor="middle">Current Streak</text>
-        <text x="247.5" y="160" class="date" text-anchor="middle">Mar 8</text>
+        <text x="247.5" y="105" fill="#28a745" class="stat" text-anchor="middle">2</text>
+        <text x="247.5" y="145" fill="#28a745" class="label" text-anchor="middle">Current Streak</text>
+        <text x="247.5" y="165" class="date" text-anchor="middle">Mar 8</text>
 
-        <text x="412.5" y="100" fill="#00a8f3" class="stat" text-anchor="middle">3</text>
-        <text x="412.5" y="136" fill="#00a8f3" class="label" text-anchor="middle">Longest Streak</text>
-        <text x="412.5" y="160" class="date" text-anchor="middle">Feb 17 - Feb 19</text>
+        <text x="412.5" y="95" fill="#00a8f3" class="stat" text-anchor="middle">3</text>
+        <text x="412.5" y="130" fill="#00a8f3" class="label" text-anchor="middle">Longest Streak</text>
+        <text x="412.5" y="155" class="date" text-anchor="middle">Feb 17 - Feb 19</text>
     </svg>
