@@ -1,40 +1,53 @@
 <?php
-
+/**
+ * CONTROLADOR DE RACHAS
+ */
 
 declare(strict_types=1);
 
-// 1. Configuración de entorno requerida por los scripts originales
+// 1. Configuración de entorno
 $user = "miguel-cordova7";
-$_SERVER["TOKEN"] = getenv('GH_TOKEN'); // stats.php busca esto
-$_SERVER["WHITELIST"] = $user;         // whitelist.php busca esto
+$_SERVER["TOKEN"] = getenv('GH_TOKEN');
+$_SERVER["WHITELIST"] = $user;
 
-// 2. Parámetros de personalización (como los que eliges en la web del creador)
-// Esto asegura que el tema sea transparente y sin bordes
-$_REQUEST["theme"] = "transparent"; 
+// 2. Parámetros de personalización
+$_REQUEST["theme"] = "transparent";
 $_REQUEST["hide_border"] = "true";
 $_REQUEST["border_radius"] = "7.4";
 
-// 3. Cargar el motor original desde la carpeta src/
-// Cambiamos al directorio src para que los "include" relativos funcionen
+$colorCeleste = "00AEFF";
+$colorVerde = "28a745";
+
+$_REQUEST["sideNums"] = $colorCeleste; 
+
+$_REQUEST["ring"] = $colorCeleste;
+
+$_REQUEST["fire"] = $colorCeleste;
+
+$_REQUEST["currStreakNum"] = $colorVerde;
+
+$_REQUEST["sideLabels"] = "FFFFFF";
+$_REQUEST["currStreakLabel"] = "FFFFFF";
+
+$_REQUEST["dates"] = "768390";
+
+// 3. Cargar el motor desde la carpeta src/
 set_include_path(__DIR__ . '/src');
 require_once "stats.php";
 require_once "card.php";
 
 try {
-    echo "Iniciando motor original para $user...\n";
+    echo "Iniciando motor original para $user con colores personalizados...\n";
 
-    // Lógica exacta de stats.php
     $contributionGraphs = getContributionGraphs($user);
     $contributions = getContributionDates($contributionGraphs);
     $stats = getContributionStats($contributions);
 
-    // Lógica exacta de card.php para generar el SVG
     $svg = generateCard($stats, $_REQUEST);
 
-    // Guardar el resultado idéntico en racha.svg
     file_put_contents(__DIR__ . "/racha.svg", $svg);
     
-    echo "¡Éxito! racha.svg generado con el diseño original completo.\n";
+    echo "¡Éxito! racha.svg generado con el diseño original y colores celestes.\n";
 
 } catch (Exception $e) {
     die("Error en el motor original: " . $e->getMessage() . "\n");
