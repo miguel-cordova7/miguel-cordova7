@@ -1,4 +1,4 @@
-name: Actualizar Tarjeta de Rachas (PHP Oficial)
+name: Actualizar Tarjeta de Rachas (Motor Original)
 
 on:
   schedule:
@@ -16,17 +16,18 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          extensions: curl, json, intl # Extensión crítica para card.php
+          # Extensiones críticas para el código original
+          extensions: curl, json, intl 
 
-      - name: Ejecutar script generador
+      - name: Ejecutar motor oficial
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: php generar_racha.php
 
-      - name: Guardar imagen SVG
+      - name: Guardar racha.svg
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add racha.svg
-          git commit -m "Actualizar racha (Código Original)" || exit 0
+          git commit -m "Sincronización racha (Motor Original DenverCoder1)" || exit 0
           git push
