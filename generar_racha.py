@@ -42,11 +42,9 @@ def calculate_streaks(data):
     days = []
     for week in calendar['weeks']:
         for day in week['contributionDays']:
-            # Convertir la fecha a un objeto datetime
             day['date_obj'] = datetime.strptime(day['date'], "%Y-%m-%d").date()
             days.append(day)
 
-    # Ordenar por fecha por si acaso
     days.sort(key=lambda x: x['date_obj'])
 
     current_streak = 0
@@ -60,7 +58,6 @@ def calculate_streaks(data):
     today = datetime.now().date()
     yesterday = today - timedelta(days=1)
 
-    # Calcular racha más larga con fechas
     for day in days:
         if day['contributionCount'] > 0:
             if temp_streak == 0:
@@ -74,7 +71,6 @@ def calculate_streaks(data):
             temp_streak = 0
             temp_streak_start = None
 
-    # Calcular racha actual (hacia atrás) con fecha
     days_reversed = list(reversed(days))
     for i, day in enumerate(days_reversed):
         if i == 0 and day['contributionCount'] == 0:
@@ -86,12 +82,9 @@ def calculate_streaks(data):
         else:
             break
 
-    # Obtener fechas formateadas en inglés
     calendar_start_date = days[0]['date_obj']
     current_date_formatted = datetime.now().strftime("%b %d") if current_streak_date else ""
-    # Si la racha actual es 0, usar la fecha de ayer o la última con commits
     if current_streak == 0:
-        # Buscar el último día con commits para la fecha. Ya tenemos `days_reversed`
         last_commit_day = next((d for d in days_reversed if d['contributionCount'] > 0), None)
         if last_commit_day:
              current_date_formatted = last_commit_day['date_obj'].strftime("%b %d")
@@ -112,40 +105,39 @@ def calculate_streaks(data):
     return total, current_streak, longest_streak, total_date_range, current_date_formatted, longest_streak_range
 
 def generate_svg(total, current, longest, total_range, current_date, longest_range):
-    svg_template = f"""
-    <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
+
+    svg_template = f"""<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
+        <style>
+            .stat {{ font: 700 28px 'Segoe UI', Ubuntu, sans-serif; }}
+            .label {{ font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #00a8f3; }}
+            .label-current {{ font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #28a745; }}
+            .date {{ font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #A3B3BC; }}
+        </style>
+        
         <rect width="495" height="195" fill="#0d1117" rx="4.5" />
-        <text x="50" y="40" fill="#fff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="bold" font-size="18">🌟 Mis Estadísticas</text>
 
-        <line x1="10" y1="55" x2="485" y2="55" stroke="#444" stroke-width="1" />
+        <line x1="165" y1="35" x2="165" y2="160" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
+        <line x1="330" y1="35" x2="330" y2="160" stroke="#E4E2E2" stroke-opacity="0.2" stroke-width="1.5" />
 
-        <line x1="165" y1="80" x2="165" y2="160" stroke="#444" stroke-width="2.5" stroke-linecap="round" />
-        <line x1="330" y1="80" x2="330" y2="160" stroke="#444" stroke-width="2.5" stroke-linecap="round" />
+        <text x="82.5" y="90" fill="#00a8f3" class="stat" text-anchor="middle">{total}</text>
+        <text x="82.5" y="125" class="label" text-anchor="middle">Total Contributions</text>
+        <text x="82.5" y="150" class="date" text-anchor="middle">{total_range}</text>
 
-        <text x="100" y="110" fill="#00a8f3" font-family="sans-serif" font-weight="bold" font-size="28" text-anchor="middle">{total}</text>
-        <text x="100" y="140" fill="#fff" font-family="sans-serif" font-size="12" text-anchor="middle">Total Contributions</text>
-        <text x="100" y="155" fill="#fff" font-family="sans-serif" font-size="10" text-anchor="middle">{total_range}</text>
-
-        <defs>
-            <linearGradient id="blue_ring" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#00a8f3;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#02d7f2;stop-opacity:1" />
-            </linearGradient>
-        </defs>
-        <circle cx="247" cy="100" r="35" stroke="url(#blue_ring)" stroke-width="3" fill="none" />
-
-        <text x="247" y="85" fill="#00a8f3" font-family="sans-serif" font-weight="bold" font-size="20" text-anchor="middle">🔥</text>
+        <g transform="translate(240, 27)">
+            <path fill="#00a8f3" d="M7.49 1.152L7.545 1.127l.035.045c2.422 3.193 4.414 5.346 4.414 8.01 0 3.328-2.585 5.818-5.994 5.818-3.409 0-5.994-2.49-5.994-5.818 0-2.31 1.488-4.576 3.51-6.686l.063-.065.046.06c1.17 1.517 2.016 3.064 2.016 4.706 0 1.25-.563 2.158-1.576 2.607a.75.75 0 0 0 .584 1.378c1.68-.713 2.492-2.302 2.492-3.985 0-2.315-1.196-4.22-2.64-6.05Zm0 .01-.002-.003.002.003Zm-.52.28-.052-.066-.022.03c-2.023 2.115-3.396 4.225-3.396 6.37 0 2.49 1.936 4.318 4.494 4.318 2.558 0 4.494-1.828 4.494-4.318 0-2.274-1.745-4.14-3.858-7.076-.84 1.636-1.594 3.238-1.594 5.031 0 1.62.775 2.91 2.036 3.58a.75.75 0 0 1-.708 1.32c-1.765-.945-2.828-2.695-2.828-4.9 0-2.053 1.055-3.83 2.434-5.289Z"></path>
+        </g>
         
-        <text x="247" y="110" fill="#28a745" font-family="sans-serif" font-weight="bold" font-size="28" text-anchor="middle">{current}</text>
+        <circle cx="247.5" cy="95" r="38" fill="none" stroke="#00a8f3" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="190 60" stroke-dashoffset="-20" transform="rotate(-90 247.5 95)" />
         
-        <text x="247" y="145" fill="#28a745" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Current Streak</text>
-        <text x="247" y="160" fill="#fff" font-family="sans-serif" font-size="10" text-anchor="middle">{current_date}</text>
+        <text x="247.5" y="105" fill="#28a745" class="stat" text-anchor="middle">{current}</text>
+        <text x="247.5" y="145" class="label-current" text-anchor="middle">Current Streak</text>
+        <text x="247.5" y="165" class="date" text-anchor="middle">{current_date}</text>
 
-        <text x="395" y="110" fill="#00a8f3" font-family="sans-serif" font-weight="bold" font-size="28" text-anchor="middle">{longest}</text>
-        <text x="395" y="140" fill="#fff" font-family="sans-serif" font-size="12" text-anchor="middle">Longest Streak</text>
-        <text x="395" y="155" fill="#fff" font-family="sans-serif" font-size="10" text-anchor="middle">{longest_range}</text>
-    </svg>
-    """
+        <text x="412.5" y="90" fill="#00a8f3" class="stat" text-anchor="middle">{longest}</text>
+        <text x="412.5" y="125" class="label" text-anchor="middle">Longest Streak</text>
+        <text x="412.5" y="150" class="date" text-anchor="middle">{longest_range}</text>
+    </svg>"""
+    
     with open("racha.svg", "w", encoding="utf-8") as file:
         file.write(svg_template)
 
@@ -153,7 +145,6 @@ if __name__ == "__main__":
     if not TOKEN:
         print("Error: No se encontró el token GH_TOKEN.")
     else:
-        print("Obteniendo datos de GitHub...")
         try:
              data = get_contributions()
              total, current, longest, total_range, current_date, longest_range = calculate_streaks(data)
