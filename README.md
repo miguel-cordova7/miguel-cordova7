@@ -92,6 +92,11 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <div align="center">
   <img src="./racha.svg" alt="GitHub Streak de Salvatore" />
+</div>
+
+<br>
+
+<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=miguel-cordova7&theme=react-dark" alt="GitHub Activity Graph" />
 </div>
 
