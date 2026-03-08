@@ -2,8 +2,8 @@ name: Actualizar Tarjeta de Rachas
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Se ejecuta todos los días a la medianoche (UTC)
+  workflow_dispatch: # Permite ejecutar el script manualmente
 
 jobs:
   build:
