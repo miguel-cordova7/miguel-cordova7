@@ -130,3 +130,16 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AGRADEZCO+TU+VISITA+Y+TU+TIEMPO&center=true&color="007BFF")](https://github.com/tanyagupta0201)
 
 
+
+
+<!-- Título opcional -->
+### 📊 Resumen de Actividad
+
+<!-- Esta es la cruceta (Productive Pattern) y otras estadísticas -->
+<p align="center">
+  <img src="https://github.com/TU-USUARIO/TU-USUARIO/blob/main/profile-summary-card-output/default/2-most-commit-language.svg" alt="Lenguajes" />
+  <img src="https://github.com/TU-USUARIO/TU-USUARIO/blob/main/profile-summary-card-output/default/3-stats.svg" alt="Estadísticas" />
+  <!-- A veces la cruceta está en el archivo productive-time o stats dependiendo de la versión -->
+</p>
+
+
