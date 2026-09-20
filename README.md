@@ -1,3 +1,6 @@
+<img width="2000" height="500" alt="BANNER_TRABAJO" src="https://github.com/user-attachments/assets/2212f506-1681-40e9-83cc-e8925e2f524e" />
+
+
 <h1 align="center">Hola, Soy Miguel Alejandro <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
