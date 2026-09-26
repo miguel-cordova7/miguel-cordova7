@@ -104,24 +104,24 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/miguel-cordova7/">
-    <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder_social_media_isometric_14-linkedin_3529657.png?raw=true" alt="linkedin" height="50">
-  </a>
-  &nbsp;
   <a href="https://stackoverflow.com/users/32384783">
-    <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder_StackOverflow_2613280.png?raw=true" alt="stackoverflow" height="50">
+    <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/stackoverflow.gif?raw=true" width = 50px></picture>
   </a>
   &nbsp;
   <a href="https://github.com/miguel-cordova7">
-    <img src="https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder__github_1156638.png?raw=true" alt="github" height="50">
+    <picture><img src = "https://github.com/sourabmaity/sourabmaity/blob/main/assets/logo/iconfinder__github_1156638.png?raw=true" width = 50px></picture>
   </a>
   &nbsp;
   <a href="https://discord.com/users/666319942148161546" target="_blank">
-    <img src="https://skillicons.dev/icons?i=discord" alt="discord" height="50">
+    <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/discord.gif?raw=true" width = 65px></picture>
   </a>
   &nbsp;
   <a href="mailto:miguel.cordova.rs@gmail.com">
-    <img src="https://www.svgrepo.com/show/349378/gmail.svg" alt="gmail" height="50">
+    <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/Gmail.gif?raw=true" width = 65px></picture>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/miguel-cordova7/">
+    <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/linkedin.gif?raw=true" width = 65px></picture>
   </a>
 </p>
 
