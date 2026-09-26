@@ -1,7 +1,6 @@
 <img width="2000" height="500" alt="BANNER_TRABAJO" src="https://github.com/user-attachments/assets/2212f506-1681-40e9-83cc-e8925e2f524e" />
 
 
-<h1 align="center">Hola, Soy Miguel Alejandro <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23007BFF&size=25&center=true&vCenter=true&width=600&height=100&lines=Ingeniero+de+Software+@miguel-cordova7">
@@ -10,7 +9,7 @@
 
 <p align="center">
   <em>
-    <b>Estudiante de Ingeniería de Software</b>. <br>
+    <b>Estudiante de Ingeniería de Software</b>.
     Estoy en la etapa de transformar <b>teoría en práctica</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px">, <br>
     creando proyectos que integran <b>Bases de Datos</b>, <b>Manejo de datos</b> y <b>Lógica de Programación</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">&nbsp;.<br>
     Mi objetivo es <b>crecer</b> como desarrollador <b>Backend</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="18px"> 
@@ -48,18 +47,6 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <br>
 
-<p align="center">
-
-
-<img src="https://user-images.githubusercontent.com/59575502/127426759-a687aa90-d647-46c9-86f7-c8e948f8095e.png" alt="python" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127427981-bfaa39a1-bce1-4f63-85c4-f61f14f39f46.png" alt="windows" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127428627-06e9cfab-80ba-45a2-8891-96121397ec9c.png" alt="java" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127426309-0b2bbd98-9756-4798-ad10-f60da4a4d5fb.png" alt="html5" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127426315-abe01b56-a385-455d-9caf-40bc7022a3d3.png" alt="css3" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127428630-7563c6a0-4ce4-4b21-9473-b7c2b149f3c4.png" alt="mysql" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127427975-18b027b4-dc7f-4616-b9b4-42019b54e8db.png" alt="git" width="25" height="25" />
-<img src="https://user-images.githubusercontent.com/59575502/127427980-4b5ba4cf-daee-474f-a500-872181ccc470.png" alt="vscode" width="25" height="25" />
-</p>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px"> Tecnologías y Herramientas
 
@@ -136,3 +123,10 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AGRADEZCO+TU+VISITA+Y+TU+TIEMPO&center=true&color="007BFF")](https://github.com/tanyagupta0201)
+
+<br>
+
+<div align="center">
+  Gracias por ver mi perfil! que tengas un buen día! :wink: <br/>
+  &copy; 2026 Miguel Cordova mrpeak-1
+</div>
