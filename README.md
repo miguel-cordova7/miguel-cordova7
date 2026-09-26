@@ -138,6 +138,6 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 <br>
 
 <div align="center">
-  Gracias por ver mi perfil! que tengas un buen día! <br/>
+  Te invito a conocer mis proyectos! que tengas un buen día! <br/>
   &copy; 2026 Miguel Cordova
 </div>
