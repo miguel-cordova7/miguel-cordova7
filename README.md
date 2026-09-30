@@ -11,7 +11,7 @@
     <b>Estudiante de Ingeniería de Software</b>.
     Estoy en la etapa de transformar <b>teoría en práctica</b>, <br>
     creando proyectos que integran <b>Bases de Datos</b>, <b>Manejo de datos</b> y <b>Lógica de Programación</b>&nbsp;&nbsp;.<br>
-    Mi objetivo es <b>crecer</b> como desarrollador <b>Backend</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="18px"> 
+    Mi objetivo es <b>crecer</b> como desarrollador <b>Backend</b> <picture><img src="https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/Rocket.gif?raw=true" width="18px"></picture> 
     dominando tecnologías como <b>Java</b> y <b>Python</b>&nbsp;.
  </em>
   <br>
