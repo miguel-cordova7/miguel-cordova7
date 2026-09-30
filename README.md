@@ -1,7 +1,7 @@
 <img width="2000" height="500" alt="BANNER_TRABAJO" src="https://github.com/user-attachments/assets/2212f506-1681-40e9-83cc-e8925e2f524e" />
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <a href="https://github.com/miguel-cordova7">
   <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=%23007BFF&size=25&center=true&vCenter=true&width=600&height=100&lines=Ingeniero+de+Software+@miguel-cordova7">
 </a>
 </p>
@@ -44,8 +44,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <br>
 
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px"> Tecnologías y Herramientas
+## <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/Stack.gif?raw=true" width = 50px></picture> Tecnologías y Herramientas
 
 <br>
 
@@ -89,7 +88,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <br>
 
-## <img src="https://media0.giphy.com/media/cNZqrH5IzOG0xrlWks/giphy.gif?cid=ecf05e47map255q427en9uprqc1sb0unjq5k4fnqg5pmhhs4&rid=giphy.gif&ct=s" width="50px"> Mis Estadísticas
+## <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/Stats.gif?raw=true" width = 50px></picture> Mis Estadísticas
 
 <br>
 
@@ -99,7 +98,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <br>
 
-## <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="80px"> Para más información puedes encontrarme en
+## <picture><img src = "https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/contact.gif?raw=true" width = 100px></picture> Para más información puedes encontrarme en
 
 <br>
 
@@ -133,7 +132,7 @@ Actualmente buscando Oportunidades de Prácticas Profesionales</i></b>
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AGRADEZCO+TU+VISITA+Y+TU+TIEMPO&center=true&color="007BFF")](https://github.com/tanyagupta0201)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=AGRADEZCO+TU+VISITA+Y+TU+TIEMPO&center=true&color="007BFF")](https://github.com/miguel-cordova7)
 
 <br>
 
