@@ -1,4 +1,4 @@
-<img width="2000" height="500" alt="BANNER_TRABAJO" src="https://github.com/user-attachments/assets/2212f506-1681-40e9-83cc-e8925e2f524e" />
+<img width="2000" height="500" alt="BANNER_TRABAJO" src="https://github.com/miguel-cordova7/miguel-cordova7/blob/main/assets/BANNER.png?raw=true" />
 
 <p align="center">
   <a href="https://github.com/miguel-cordova7">
